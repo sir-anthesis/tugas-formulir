@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Penjumlahan -->
     <div class="container p-3 mt-5 border">
         <h2 class="text-center">FORM PENJUMLAHAN</h2>
-        <form action="lulus.php?action=jumlah" method="POST">
+        <form action="form.php?action=jumlah" method="POST">
             <div class="mb-3">
                 <label for="angka1" class="form-label">Angka 1</label>
                 <input type="number" class="form-control" placeholder="masukan angka1" name="angka1">
@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Form kelulusan -->
     <div class="container p-3 mt-5 border">
         <h2 class="text-center">FORM KELULUSAN</h2>
-        <form action="lulus.php?action=form" method="POST">
+        <form action="form.php?action=form" method="POST">
             <div class="mb-3">
                 <label for="nama" class="form-label">Nama</label>
                 <input type="text" class="form-control" placeholder="masukan nama" name="nama">
@@ -134,7 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Kalkulator -->
     <div class="container p-3 mt-5 border">
         <h2 class="text-center">FORM PERHITUNGAN</h2>
-        <form action="lulus.php?action=kalkulator" method="POST">
+        <form action="form.php?action=kalkulator" method="POST">
             <div class="mb-3">
                 <label for="angka1" class="form-label">Angka 1</label>
                 <input type="number" class="form-control" placeholder="masukan angka1" name="angka1">
